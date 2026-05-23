@@ -1,3 +1,20 @@
 apiVersion: v1
-entries: {}
-generated: "2026-05-21T18:11:18Z"
+entries:
+  miramira:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2026-05-23T19:59:05.507179225Z"
+    dependencies:
+    - condition: openfga.enabled
+      name: openfga
+      repository: https://openfga.github.io/helm-charts
+      version: 0.2.41
+    description: Standalone relationship-based authorization service (Fastify + Drizzle
+      + OpenFGA)
+    digest: 0a56032db9384ca6bcc68e6d8d6dc5a56fa122d54d07cefcf7b03e20b849ec65
+    name: miramira
+    type: application
+    urls:
+    - https://megafarad.github.io/helm-charts/miramira-0.1.0.tgz
+    version: 0.1.0
+generated: "2026-05-23T19:59:05.497389223Z"
